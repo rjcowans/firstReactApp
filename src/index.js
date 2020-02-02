@@ -8,11 +8,7 @@ import Counters from './components/counters';
 
 ReactDOM.render(<Counters />, document.getElementById('root'));
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+// I switched to using the Counters componment, therefore the App.js and App.css are no longer needed.
+// They will stay up for basic structure and new reliance
 
-const element = <h1>Hello Testing</h1>;
-//console.log(element);
-//ReactDOM.render(element,document.getElementById('root'));
+serviceWorker.unregister();
